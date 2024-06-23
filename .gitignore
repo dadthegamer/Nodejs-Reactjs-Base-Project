@@ -1,0 +1,8 @@
+node_modules
+logs
+backups
+/node_modules
+
+.env
+
+.vscode
