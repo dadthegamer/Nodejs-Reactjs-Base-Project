@@ -19,6 +19,7 @@ export default function Navbar() {
                     zIndex: 1000,
                     width: '100%',
                     overflow: 'hidden',
+                    fontSize: '1rem',
                 }
             }>
             <Box
@@ -31,7 +32,7 @@ export default function Navbar() {
                     }
                 }
             >
-                <Avatar src='/profile_pic.png' alt='Craig Bailey' />
+                <Avatar src='/profile_pic.png' alt='Craig Bailey' sx={{ width: 50, height: 50 }} />
                 <Typography variant='h7'>Craig Bailey</Typography>
             </Box>
             <Box

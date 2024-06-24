@@ -41,6 +41,39 @@ function App() {
         contrastText: '#fff',
       },
     },
+    typography: {
+      fontFamily: 'Bebas Neue, sans-serif',
+      h1: {
+        fontSize: '2rem',
+        fontWeight: 500,
+        color: 'primary.main',
+      },
+      h2: {
+        fontSize: '1.5rem',
+        fontWeight: 500,
+        color: 'primary.main',
+      },
+      h3: {
+        fontSize: '1.17rem',
+        fontWeight: 500,
+        color: 'primary.main',
+      },
+      h4: {
+        fontSize: '1rem',
+        fontWeight: 500,
+        color: 'primary.main',
+      },
+      h5: {
+        fontSize: '0.83rem',
+        fontWeight: 500,
+        color: 'primary.main',
+      },
+      h6: {
+        fontSize: '0.67rem',
+        fontWeight: 500,
+        color: 'primary.main',
+      },
+    },
     components: {
       MuiButton: {
         defaultProps: {
