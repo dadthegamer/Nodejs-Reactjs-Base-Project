@@ -7,6 +7,7 @@ import { blue, grey } from '@mui/material/colors';
 // Import Components
 import Navbar from './Navbar.js';
 import Home from './Pages/Home.js';
+import Footer from './Pages/Footer.js';
 
 function App() {
 
@@ -81,6 +82,7 @@ function App() {
             <Route path="/about" element={<h1>About</h1>} />
           </Routes>
         </Box>
+        <Footer />
       </Router>
     </ThemeProvider>
   );

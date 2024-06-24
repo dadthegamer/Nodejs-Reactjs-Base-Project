@@ -63,7 +63,7 @@ export default function Navbar() {
                 }
             }
             >
-                <Link href='github.com' color='inherit' underline='none'>
+                <Link href='github.com' color='inherit' underline='none' onClick={() => window.open('https://github.com/dadthegamer')}>
                     <GitHubIcon />
                 </Link>
                 <Link href='facebook.com' color='inherit' underline='none'>
