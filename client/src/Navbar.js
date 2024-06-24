@@ -45,8 +45,8 @@ export default function Navbar() {
                 }
             >
                 <Link href='/' color='inherit' underline='none'>About</Link>
-                <Link href='/about' color='inherit' underline='none'>Portfolio</Link>
-                <Link href='/projects' color='inherit' underline='none'>Contact</Link>
+                <Link href='/portfolio' color='inherit' underline='none'>Portfolio</Link>
+                <Link href='/contact' color='inherit' underline='none'>Contact</Link>
             </Box>
         </Box>
     )
